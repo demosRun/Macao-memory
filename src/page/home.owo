@@ -191,7 +191,7 @@
   width: 708px;
 }
 .info-content {
-  width: 1200px;
+  width: 1100px;
   height: 620px;
   position: absolute;
   left: 0;
@@ -254,6 +254,7 @@
   z-index: 2;
   left: 0;
   right: 0;
+  display: none;
   margin: auto;
   .line, .active-line {
     height: 5px;

@@ -6,6 +6,9 @@ body, html {
   user-select: text;
   font: normal 12px/180% "SimSun";
   overflow-x: hidden;
+  min-width: 1200px;
+  min-height: 900px;
+  overflow: auto;
 }
 html {
   background-color: white;

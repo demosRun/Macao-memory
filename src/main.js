@@ -37,9 +37,15 @@ $(function () {
     pagination: '.pagination',
     paginationClickable: true,
     resistance: false,
+    simulateTouch: false,
     mousewheelControl : true,
     onSlideChangeEnd: function(swiper) {
       console.log(swiper.activeIndex)
+      if (swiper.activeIndex == 0) {
+        $('.time-axis')[0].style.display = 'none'
+      } else {
+        $('.time-axis')[0].style.display = 'block'
+      }
       if (swiper.activeIndex > 0 && swiper.activeIndex < swiper.slides.length - 1) {
         activeIndex(swiper.activeIndex - 2)
       }
