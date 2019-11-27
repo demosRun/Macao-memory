@@ -1,16 +1,299 @@
 <template lang="pug">
 .home
+  .swiper-container
+    .swiper-wrapper
+      .swiper-slide.page-1
+        img.logo(src="@|logo.png|")
+        img.mouse(src="@|mouse.png|")
+        .main-box
+          img(src="@|main-1.png|")
+          p 指导单位：中央政府驻澳门联络办公室宣传文化部      出品：人民视频
+      .swiper-slide.page-2
+        .info-content.mini
+          h1 澳门记忆·首页
+          h2 一二三四五六七八九十一二三四五六七八九十一二三四五六七八
+          .video-box
+            embed(src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf" quality="high" width="708" height="384" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer")
+          p 一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
+      //- 内容页
+      .swiper-slide.page-content
+        .info-content
+          h1 澳门记忆·1999
+          h2 一二三四五六七八九十一二三四五六七八九十一二三四五六七八
+          .video-box
+            embed(src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf" quality="high" width="708" height="384" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer")
+          p 一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
+          .show
+            img(src="@|show.png|")
+          .time 1999
+      //- 内容页2000
+      .swiper-slide.page-content
+        .info-content
+          h1 澳门记忆·2000
+          h2 一二三四五六七八九十一二三四五六七八九十一二三四五六七八
+          .video-box
+            embed(src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf" quality="high" width="708" height="384" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer")
+          p 一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
+          .show
+            img(src="@|show.png|")
+          .time 1999
+      //- 内容页2001
+      .swiper-slide.page-content
+        .info-content
+          h1 澳门记忆·2001
+          h2 一二三四五六七八九十一二三四五六七八九十一二三四五六七八
+          .video-box
+            embed(src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf" quality="high" width="708" height="384" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer")
+          p 一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
+          .show
+            img(src="@|show.png|")
+          .time 1999
+      .swiper-slide.page-3
+        img.to-home(src="@|to-home.png|")
+        .content-box
+          .title 联合出品
+          .content
+            .left.fl 人民网<br>人民视频<br>山东电视台<br>人民网海南频道<br>中共青岛市委宣传部<br>青岛广播电视台<br>红网<br>公安部<br>河南广播电视台<br>中国长江三峡集团有限公司<br>人民网青海频道<br>青海广播电视台<br>人民体育<br>中华人民共和国应急管理部<br>出品人：叶蓁蓁<br>总监制：余清楚
+            .right.fl 河南广播电视台<br>中国长江三峡集团有限公司<br>人民网青海频道<br>青海广播电视台<br>人民体育<br>中华人民共和国应急管理部<br>出品人：叶蓁蓁<br>总监制：余清楚<br>总策划：唐维红<br>总制片人：陈星星<br>监制：申宁<br>执行：刘晓静
+    .pagination
+  .time-axis
+    .line
+    .active-line
+    ul.clear
+      li 1999
+      li 2000
+      li 2001
+      li 2002
+      li 2003
+      li 2004
+      li 2005
+      li 2006
+      li 2007
+      li 2008
+      li 2009
+      li 2010
+      li 2011
+      li 2012
+      li 2013
+      li 2014
+      li 2015
+      li 2016
+      li 2017
+      li 2018
+      li 2019
 </template>
 
 <script>
   module.exports = {
     created: function () {
-
+      
     }
   }
 </script>
 
 
 <style lang="less">
-
+.home {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.page-1 {
+  background-image: url("@|bg-1.jpg|");
+  .logo {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+  }
+}
+.page-2, .page-content {
+  background-image: url("@|bg-2.jpg|");
+}
+.page-3 {
+  background-image: url("@|bg-3.jpg|");
+}
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+@keyframes twinkling{ 
+  0% { 
+    opacity: 0.2; 
+  } 
+  100% { 
+    opacity: 1; 
+  }
+}
+.mouse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 2%;
+  animation: twinkling 1.5s linear infinite alternate;
+}
+.main-box {
+  width: 620px;
+  height: 409px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -15%;
+  bottom: 0;
+  margin: auto;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    line-height: 90px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+.to-home {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  cursor: pointer;
+}
+.content-box {
+  width: 1000px;
+  height: 560px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  .title {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    line-height: 45px;
+  }
+  .content {
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+    .fl {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+.info-content.mini {
+  width: 708px;
+}
+.info-content {
+  width: 1200px;
+  height: 620px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8%;
+  margin: auto;
+  overflow: hidden;
+  h1 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+  }
+  h2 {
+    color: #333333;
+    font-size: 24px;
+    line-height: 30px;
+    font-style: italic;
+  }
+  .video-box {
+    width: 708px;
+    height: 384px;
+    background-color: silver;
+    margin-top: 20px;
+    z-index: 999;
+    transform: translate3d(0, 0px, 0px);
+  }
+  p {
+    width: 710px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+  }
+  .show {
+    position: absolute;
+    left: 780px;
+    top: 19%;
+    z-index: 2;
+  }
+  .time {
+    color: #c8d4ce;
+    position: absolute;
+    font-size: 142px;
+    font-weight: bold;
+    font-family: auto;
+    line-height: 100px;
+    left: 65%;
+    top: 25px;
+    z-index: 0;
+    font-style: italic;
+  }
+}
+.time-axis {
+  width: 1050px;
+  position: absolute;
+  bottom: 5%;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin: auto;
+  .line, .active-line {
+    height: 5px;
+    background-color: #bebebe;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    user-select: none;
+    pointer-events: none;
+  }
+  .active-line {
+    width: 0;
+    background-color: #006c38;
+    transition: width 0.5s;
+  }
+  ul {
+    width: 100%;
+  }
+  li {
+    float: left;
+    width: 50px;
+    text-align: center;
+    color: #ab8484;
+    line-height: 30px;
+    padding-top: 30px;
+    font-size: 18px;
+    background-image: url('@|spot.png|');
+    background-repeat: no-repeat;
+    background-position: center 0;
+  }
+  .can-click {
+    cursor: pointer;
+    color: #bebebe;
+  }
+  .active {
+    color: #006838;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
 </style>

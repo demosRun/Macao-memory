@@ -1,0 +1,310 @@
+body, html, .owo, .page-box {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+
+a {
+  color: #333;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.page-1 {
+  background-image: url("../resource/bg-1.jpg");
+}
+
+.page-1 .logo {
+  position: absolute;
+  left: 3%;
+  top: 3%;
+}
+
+.page-2,
+.page-content {
+  background-image: url("../resource/bg-2.jpg");
+}
+
+.page-3 {
+  background-image: url("../resource/bg-3.jpg");
+}
+
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+@-webkit-keyframes twinkling {
+  0% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes twinkling {
+  0% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.mouse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 2%;
+  -webkit-animation: twinkling 1.5s linear infinite alternate;
+          animation: twinkling 1.5s linear infinite alternate;
+}
+
+.main-box {
+  width: 620px;
+  height: 409px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -15%;
+  bottom: 0;
+  margin: auto;
+}
+
+.main-box img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-box p {
+  line-height: 90px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.to-home {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  cursor: pointer;
+}
+
+.content-box {
+  width: 1000px;
+  height: 560px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.content-box .title {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.content-box .content {
+  color: white;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.content-box .content .fl {
+  width: 50%;
+  float: left;
+}
+
+.info-content.mini {
+  width: 708px;
+}
+
+.info-content {
+  width: 1200px;
+  height: 620px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.info-content h1 {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Microsoft YaHei";
+  color: #333333;
+}
+
+.info-content h2 {
+  color: #333333;
+  font-size: 24px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.info-content .video-box {
+  width: 708px;
+  height: 384px;
+  background-color: silver;
+  margin-top: 20px;
+  z-index: 999;
+  -webkit-transform: translate3d(0, 0px, 0px);
+          transform: translate3d(0, 0px, 0px);
+}
+
+.info-content p {
+  width: 710px;
+  color: #333333;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.info-content .show {
+  position: absolute;
+  left: 780px;
+  top: 19%;
+  z-index: 2;
+}
+
+.info-content .time {
+  color: #c8d4ce;
+  position: absolute;
+  font-size: 142px;
+  font-weight: bold;
+  font-family: auto;
+  line-height: 100px;
+  left: 65%;
+  top: 25px;
+  z-index: 0;
+  font-style: italic;
+}
+
+.time-axis {
+  width: 1050px;
+  position: absolute;
+  bottom: 5%;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.time-axis .line,
+.time-axis .active-line {
+  height: 5px;
+  background-color: #bebebe;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.time-axis .active-line {
+  width: 0;
+  background-color: #006c38;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.time-axis ul {
+  width: 100%;
+}
+
+.time-axis li {
+  float: left;
+  width: 50px;
+  text-align: center;
+  color: #ab8484;
+  line-height: 30px;
+  padding-top: 30px;
+  font-size: 18px;
+  background-image: url('../resource/spot.png');
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.time-axis .can-click {
+  cursor: pointer;
+  color: #bebebe;
+}
+
+.time-axis .active {
+  color: #006838;
+  font-weight: bold;
+  font-size: 20px;
+}
+
