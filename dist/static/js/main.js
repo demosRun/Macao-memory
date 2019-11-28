@@ -40,14 +40,21 @@ $(function () {
     simulateTouch: false,
     mousewheelControl : true,
     onSlideChangeEnd: function(swiper) {
-      console.log(swiper.activeIndex)
-      if (swiper.activeIndex == 0) {
+      var num = $('.page-2').length == 0 ? 1 : 2
+      if (swiper.activeIndex == 0 || swiper.activeIndex == swiper.slides.length - 1) {
         $('.time-axis')[0].style.display = 'none'
       } else {
         $('.time-axis')[0].style.display = 'block'
       }
       if (swiper.activeIndex > 0 && swiper.activeIndex < swiper.slides.length - 1) {
-        activeIndex(swiper.activeIndex - 2)
+        activeIndex(swiper.activeIndex - num)
+      }
+      if (num == 2 && swiper.activeIndex == 1) {
+        $('.time-axis')[0].style.display = 'none'
+      }
+      console.log(swiper.activeIndex, 24 - num)
+      if (swiper.activeIndex == 24 - num) {
+        $('.active-line')[0].style.width = 1050 + 'px'
       }
     }
   })
@@ -64,13 +71,13 @@ $(function () {
 
   function activeIndex (ind) {
     $('.time-axis ul li').each(function (ind2, item2) {
-      if (ind2 <= ind) {
+      if (ind2 == ind) {
         item2.classList.add('active')
       } else {
         item2.classList.remove('active')
       }
     })
-    $('.active-line')[0].style.width = (ind + 1) * 50 + 'px'
+    $('.active-line')[0].style.width = (ind + 1) * 50 - 25 + 'px'
   }
 
   var contentList = $('.page-content')
@@ -79,9 +86,10 @@ $(function () {
   // $('.active-line')[0].style.width = contentListLength * 50 + 'px'
   $('.time-axis ul li').each(function (ind, item) {
     if (ind < contentListLength) {
+      var num = $('.page-2').length == 0 ? 1 : 2
       item.classList.add('can-click')
       item.onclick = function () {
-        mySwiper.swipeTo(ind + 2)
+        mySwiper.swipeTo(ind + num)
         // $('.active-line')[0].style.width = (ind + 1) * 50 + 'px'
         // activeIndex(ind)
       }

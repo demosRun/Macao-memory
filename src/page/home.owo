@@ -7,7 +7,7 @@
         img.mouse(src="@|mouse.png|")
         .main-box
           img(src="@|main-1.png|")
-          p 指导单位：中央政府驻澳门联络办公室宣传文化部      出品：人民视频
+          p 指导单位：中央政府驻澳门联络办公室宣传文化部&nbsp;&nbsp;&nbsp;出品：人民视频
       .swiper-slide.page-2
         .info-content.mini
           h1 澳门记忆·首页
@@ -24,7 +24,7 @@
             embed(src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf" quality="high" width="708" height="384" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer")
           p 一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
           .show
-            img(src="@|show.png|")
+            img(src="@|show.png|" width="266" height="463")
           .time 1999
       //- 内容页2000
       .swiper-slide.page-content
@@ -35,8 +35,8 @@
             embed(src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf" quality="high" width="708" height="384" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer")
           p 一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
           .show
-            img(src="@|show.png|")
-          .time 1999
+            img(src="@|show.png|" width="266" height="463")
+          .time 2000
       //- 内容页2001
       .swiper-slide.page-content
         .info-content
@@ -46,8 +46,8 @@
             embed(src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf" quality="high" width="708" height="384" align="middle" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer")
           p 一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
           .show
-            img(src="@|show.png|")
-          .time 1999
+            img(src="@|show.png|" width="266" height="463")
+          .time 2001
       .swiper-slide.page-3
         img.to-home(src="@|to-home.png|")
         .content-box
@@ -133,7 +133,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  bottom: 2%;
+  top: 77%;
   animation: twinkling 1.5s linear infinite alternate;
 }
 .main-box {
@@ -161,12 +161,13 @@
   right: 10%;
   bottom: 30%;
   cursor: pointer;
+  z-index: 999;
 }
 .content-box {
   width: 1000px;
   height: 560px;
   position: absolute;
-  left: 0;
+  left: 250px;
   right: 0;
   top: 0;
   bottom: 0;
@@ -189,12 +190,13 @@
 }
 .info-content.mini {
   width: 708px;
+  left: 0;
 }
 .info-content {
   width: 1100px;
   height: 620px;
   position: absolute;
-  left: 0;
+  left: 60px;
   right: 0;
   top: 8%;
   margin: auto;
@@ -219,7 +221,12 @@
     background-color: silver;
     margin-top: 20px;
     z-index: 999;
+    overflow: hidden;
     transform: translate3d(0, 0px, 0px);
+    object, video, img, embed {
+      width: 100%;
+      height: 100%;
+    }
   }
   p {
     width: 710px;
@@ -250,7 +257,7 @@
 .time-axis {
   width: 1050px;
   position: absolute;
-  bottom: 5%;
+  top: 76%;
   z-index: 2;
   left: 0;
   right: 0;
@@ -279,22 +286,30 @@
     float: left;
     width: 50px;
     text-align: center;
-    color: #ab8484;
+    color: transparent;
     line-height: 30px;
     padding-top: 30px;
-    font-size: 18px;
+    font-size: 20px;
     background-image: url('@|spot.png|');
     background-repeat: no-repeat;
     background-position: center 0;
+    pointer-events: none;
+    user-select: none;
+  }
+  li:hover {
+    color: #ab8484;
+    background-image: url('@|spot-active.png|');
   }
   .can-click {
     cursor: pointer;
-    color: #bebebe;
+    user-select: auto;
+    pointer-events: all;
+    // color: #bebebe;
   }
   .active {
     color: #006838;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 </style>

@@ -1,253 +1,66 @@
-[2019-11-28T00:09:04.109] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-28T00:09:04.112] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Macao-memory
-[2019-11-28T00:09:04.112] [INFO] default - 首次启动!
-[2019-11-28T00:09:04.112] [INFO] default - 生成版本号: tl46gmmvaud
-[2019-11-28T00:09:04.116] [INFO] default - 清理资源文件夹: C:\Users\my\Documents\GitHub\Macao-memory\dist\static
-[2019-11-28T00:09:04.116] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Macao-memory\dist\static
-[2019-11-28T00:09:04.117] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Macao-memory\dist\static
-[2019-11-28T00:09:04.117] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-28T00:09:04.117] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-28T00:09:04.117] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-28T00:09:04.118] [INFO] default - 开始处理模块: home
-[2019-11-28T00:09:04.623] [DEBUG] default - 缓存模板: home./src/page/home.owo
-[2019-11-28T00:09:04.685] [DEBUG] default - 页面home处理用时: 567 毫秒!
-[2019-11-28T00:09:04.687] [INFO] default - 文件夹不存在: C:/Users/my/Documents/GitHub/Macao-memory/dist/static/resource
-[2019-11-28T00:09:04.687] [INFO] default - 创建文件夹: C:/Users/my/Documents/GitHub/Macao-memory/dist/static/resource
-[2019-11-28T00:09:04.688] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-1.jpg',
-  'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-2.jpg',
-  'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-3.jpg',
-  'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/spot.png' ]
-[2019-11-28T00:09:04.688] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/Macao-memory/dist/static/resource
-[2019-11-28T00:09:04.690] [DEBUG] default - css中的资源处理完毕!
-[2019-11-28T00:09:05.201] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-28T00:09:05.254] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css
-[2019-11-28T00:09:05.255] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css
-[2019-11-28T00:09:05.255] [INFO] default - 开始处理附属css中的资源
-[2019-11-28T00:09:05.255] [INFO] default - 附属css中的资源处理完毕!
-[2019-11-28T00:09:05.255] [INFO] default - 处理字体: {}
-[2019-11-28T00:09:05.388] [INFO] default - 使用postcss处理完毕! 用时: 187 毫秒
-[2019-11-28T00:09:05.389] [INFO] default - 正在处理script!
-[2019-11-28T00:09:05.390] [DEBUG] default - 选择将js合并到html中!
-[2019-11-28T00:09:05.950] [INFO] default - 工程中只有一个页面!
-[2019-11-28T00:09:05.951] [INFO] default - js中的资源处理完毕!
-[2019-11-28T00:09:05.952] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-28T00:09:05.952] [DEBUG] default - 外部脚本数量: 3
-[2019-11-28T00:09:05.952] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-28T00:09:05.952] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-28T00:09:05.952] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-11-28T00:09:05.952] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-11-28T00:09:05.952] [DEBUG] default - 处理脚本: main
-[2019-11-28T00:09:05.952] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:09:05.952] [DEBUG] default - 输出scriptData
-[2019-11-28T00:09:05.953] [DEBUG] default - 准备输出html!
-[2019-11-28T00:09:05.953] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:09:05.953] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:09:05.954] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/logo.png',
-  'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/mouse.png',
-  'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/main-1.png',
-  'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png',
-  'C:/Users/my/Documents/GitHub/Macao-memory/src/resource/to-home.png' ]
-[2019-11-28T00:09:05.954] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/Macao-memory/dist/static/resource
-[2019-11-28T00:09:05.955] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\js
-[2019-11-28T00:09:05.955] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\js
-[2019-11-28T00:09:05.956] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-28T00:09:05.956] [INFO] default - 编译结束!
-[2019-11-28T00:09:05.957] [INFO] default - 发送页面需要刷新命令!
-[2019-11-28T00:09:05.971] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\owo.main.css
-[2019-11-28T00:09:05.971] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.css
-[2019-11-28T00:09:05.972] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-28T00:09:05.972] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:09:06.000] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\main.css
-[2019-11-28T00:09:06.002] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\js\main.js
-[2019-11-28T00:09:46.656] [INFO] default - file change: C:\Users\my\Documents\GitHub\Macao-memory\src\main.css
-[2019-11-28T00:09:46.657] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-28T00:09:46.657] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Macao-memory
-[2019-11-28T00:09:46.657] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Macao-memory\src\main.css
-[2019-11-28T00:09:46.657] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-28T00:09:46.657] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-28T00:09:46.657] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-28T00:09:46.657] [INFO] default - 开始处理模块: home
-[2019-11-28T00:09:46.736] [DEBUG] default - 缓存模板: home./src/page/home.owo
-[2019-11-28T00:09:46.758] [DEBUG] default - 页面home处理用时: 101 毫秒!
-[2019-11-28T00:09:46.759] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-1.jpg
-[2019-11-28T00:09:46.759] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-2.jpg
-[2019-11-28T00:09:46.759] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-3.jpg
-[2019-11-28T00:09:46.759] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/spot.png
-[2019-11-28T00:09:46.759] [DEBUG] default - css中的资源处理完毕!
-[2019-11-28T00:09:46.759] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-28T00:09:46.767] [INFO] default - 开始处理附属css中的资源
-[2019-11-28T00:09:46.767] [INFO] default - 附属css中的资源处理完毕!
-[2019-11-28T00:09:46.767] [INFO] default - 处理字体: {}
-[2019-11-28T00:09:46.768] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
-[2019-11-28T00:09:46.768] [INFO] default - 正在处理script!
-[2019-11-28T00:09:46.769] [DEBUG] default - 选择将js合并到html中!
-[2019-11-28T00:09:46.785] [INFO] default - 工程中只有一个页面!
-[2019-11-28T00:09:46.786] [INFO] default - js中的资源处理完毕!
-[2019-11-28T00:09:46.786] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-28T00:09:46.786] [DEBUG] default - 外部脚本数量: 3
-[2019-11-28T00:09:46.786] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-28T00:09:46.786] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-28T00:09:46.786] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-11-28T00:09:46.786] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-11-28T00:09:46.786] [DEBUG] default - 处理脚本: main
-[2019-11-28T00:09:46.786] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:09:46.786] [DEBUG] default - 输出scriptData
-[2019-11-28T00:09:46.786] [DEBUG] default - 准备输出html!
-[2019-11-28T00:09:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/logo.png
-[2019-11-28T00:09:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/mouse.png
-[2019-11-28T00:09:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/main-1.png
-[2019-11-28T00:09:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:09:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:09:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:09:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/to-home.png
-[2019-11-28T00:09:46.788] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-28T00:09:46.788] [INFO] default - 编译结束!
-[2019-11-28T00:09:46.789] [INFO] default - 发送页面需要刷新命令!
-[2019-11-28T00:09:46.789] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.css
-[2019-11-28T00:09:46.790] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:09:46.790] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\owo.main.css
-[2019-11-28T00:09:46.790] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-28T00:09:46.791] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\main.css
-[2019-11-28T00:09:46.791] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\js\main.js
-[2019-11-28T00:10:13.388] [INFO] default - file change: C:\Users\my\Documents\GitHub\Macao-memory\src\main.css
-[2019-11-28T00:10:13.388] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-28T00:10:13.388] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Macao-memory
-[2019-11-28T00:10:13.388] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Macao-memory\src\main.css
-[2019-11-28T00:10:13.388] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-28T00:10:13.388] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-28T00:10:13.388] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-28T00:10:13.389] [INFO] default - 开始处理模块: home
-[2019-11-28T00:10:13.452] [DEBUG] default - 缓存模板: home./src/page/home.owo
-[2019-11-28T00:10:13.473] [DEBUG] default - 页面home处理用时: 84 毫秒!
-[2019-11-28T00:10:13.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-1.jpg
-[2019-11-28T00:10:13.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-2.jpg
-[2019-11-28T00:10:13.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-3.jpg
-[2019-11-28T00:10:13.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/spot.png
-[2019-11-28T00:10:13.473] [DEBUG] default - css中的资源处理完毕!
-[2019-11-28T00:10:13.474] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-28T00:10:13.483] [INFO] default - 开始处理附属css中的资源
-[2019-11-28T00:10:13.483] [INFO] default - 附属css中的资源处理完毕!
-[2019-11-28T00:10:13.483] [INFO] default - 处理字体: {}
-[2019-11-28T00:10:13.484] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
-[2019-11-28T00:10:13.484] [INFO] default - 正在处理script!
-[2019-11-28T00:10:13.485] [DEBUG] default - 选择将js合并到html中!
-[2019-11-28T00:10:13.495] [INFO] default - 工程中只有一个页面!
-[2019-11-28T00:10:13.496] [INFO] default - js中的资源处理完毕!
-[2019-11-28T00:10:13.496] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-28T00:10:13.496] [DEBUG] default - 外部脚本数量: 3
-[2019-11-28T00:10:13.496] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-28T00:10:13.496] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-28T00:10:13.496] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-11-28T00:10:13.496] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-11-28T00:10:13.496] [DEBUG] default - 处理脚本: main
-[2019-11-28T00:10:13.496] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:10:13.496] [DEBUG] default - 输出scriptData
-[2019-11-28T00:10:13.496] [DEBUG] default - 准备输出html!
-[2019-11-28T00:10:13.497] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/logo.png
-[2019-11-28T00:10:13.497] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/mouse.png
-[2019-11-28T00:10:13.497] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/main-1.png
-[2019-11-28T00:10:13.497] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:10:13.497] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:10:13.497] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:10:13.497] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/to-home.png
-[2019-11-28T00:10:13.498] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-28T00:10:13.498] [INFO] default - 编译结束!
-[2019-11-28T00:10:13.499] [INFO] default - 发送页面需要刷新命令!
-[2019-11-28T00:10:13.500] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:10:13.500] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.css
-[2019-11-28T00:10:13.500] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\owo.main.css
-[2019-11-28T00:10:13.500] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-28T00:10:13.500] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\js\main.js
-[2019-11-28T00:10:13.501] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\main.css
-[2019-11-28T00:13:57.330] [INFO] default - file change: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:13:57.330] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-28T00:13:57.330] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Macao-memory
-[2019-11-28T00:13:57.330] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:13:57.330] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-28T00:13:57.330] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-28T00:13:57.330] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-28T00:13:57.331] [INFO] default - 开始处理模块: home
-[2019-11-28T00:13:57.398] [DEBUG] default - 缓存模板: home./src/page/home.owo
-[2019-11-28T00:13:57.426] [DEBUG] default - 页面home处理用时: 95 毫秒!
-[2019-11-28T00:13:57.427] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-1.jpg
-[2019-11-28T00:13:57.427] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-2.jpg
-[2019-11-28T00:13:57.427] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-3.jpg
-[2019-11-28T00:13:57.427] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/spot.png
-[2019-11-28T00:13:57.427] [DEBUG] default - css中的资源处理完毕!
-[2019-11-28T00:13:57.427] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-28T00:13:57.433] [INFO] default - 处理字体: {}
-[2019-11-28T00:13:57.434] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
-[2019-11-28T00:13:57.434] [INFO] default - 正在处理script!
-[2019-11-28T00:13:57.435] [DEBUG] default - 选择将js合并到html中!
-[2019-11-28T00:13:57.449] [INFO] default - 工程中只有一个页面!
-[2019-11-28T00:13:57.450] [INFO] default - js中的资源处理完毕!
-[2019-11-28T00:13:57.450] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-28T00:13:57.450] [DEBUG] default - 外部脚本数量: 3
-[2019-11-28T00:13:57.450] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-28T00:13:57.450] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-28T00:13:57.450] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-11-28T00:13:57.450] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-11-28T00:13:57.451] [DEBUG] default - 处理脚本: main
-[2019-11-28T00:13:57.451] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:13:57.451] [DEBUG] default - 输出scriptData
-[2019-11-28T00:13:57.451] [DEBUG] default - 准备输出html!
-[2019-11-28T00:13:57.451] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/logo.png
-[2019-11-28T00:13:57.451] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/mouse.png
-[2019-11-28T00:13:57.451] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/main-1.png
-[2019-11-28T00:13:57.452] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:13:57.452] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:13:57.452] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:13:57.452] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/to-home.png
-[2019-11-28T00:13:57.455] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-28T00:13:57.455] [INFO] default - 编译结束!
-[2019-11-28T00:13:57.456] [INFO] default - 发送页面需要刷新命令!
-[2019-11-28T00:13:57.460] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-28T00:13:57.460] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\owo.main.css
-[2019-11-28T00:13:57.463] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:13:57.474] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\js\main.js
-[2019-11-28T00:14:08.103] [INFO] default - file change: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:14:08.103] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-28T00:14:08.103] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Macao-memory
-[2019-11-28T00:14:08.103] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:14:08.103] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-28T00:14:08.103] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-28T00:14:08.103] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-28T00:14:08.103] [INFO] default - 开始处理模块: home
-[2019-11-28T00:14:08.189] [DEBUG] default - 缓存模板: home./src/page/home.owo
-[2019-11-28T00:14:08.209] [DEBUG] default - 页面home处理用时: 106 毫秒!
-[2019-11-28T00:14:08.211] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-1.jpg
-[2019-11-28T00:14:08.211] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-2.jpg
-[2019-11-28T00:14:08.211] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/bg-3.jpg
-[2019-11-28T00:14:08.211] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/spot.png
-[2019-11-28T00:14:08.211] [DEBUG] default - css中的资源处理完毕!
-[2019-11-28T00:14:08.211] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-28T00:14:08.219] [INFO] default - 处理字体: {}
-[2019-11-28T00:14:08.220] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
-[2019-11-28T00:14:08.220] [INFO] default - 正在处理script!
-[2019-11-28T00:14:08.222] [DEBUG] default - 选择将js合并到html中!
-[2019-11-28T00:14:08.239] [INFO] default - 工程中只有一个页面!
-[2019-11-28T00:14:08.240] [INFO] default - js中的资源处理完毕!
-[2019-11-28T00:14:08.240] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-28T00:14:08.240] [DEBUG] default - 外部脚本数量: 3
-[2019-11-28T00:14:08.240] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-28T00:14:08.240] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-28T00:14:08.240] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-11-28T00:14:08.240] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-11-28T00:14:08.240] [DEBUG] default - 处理脚本: main
-[2019-11-28T00:14:08.240] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:14:08.240] [DEBUG] default - 输出scriptData
-[2019-11-28T00:14:08.240] [DEBUG] default - 准备输出html!
-[2019-11-28T00:14:08.240] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/logo.png
-[2019-11-28T00:14:08.241] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/mouse.png
-[2019-11-28T00:14:08.241] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/main-1.png
-[2019-11-28T00:14:08.241] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:14:08.241] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:14:08.241] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/show.png
-[2019-11-28T00:14:08.241] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Macao-memory/src/resource/to-home.png
-[2019-11-28T00:14:08.242] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-28T00:14:08.242] [INFO] default - 编译结束!
-[2019-11-28T00:14:08.243] [INFO] default - 发送页面需要刷新命令!
-[2019-11-28T00:14:08.244] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Macao-memory\src\main.js
-[2019-11-28T00:14:08.245] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\css\owo.main.css
-[2019-11-28T00:14:08.245] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-28T00:14:08.246] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Macao-memory\dist\static\js\main.js
+[2019-11-28T10:55:24.514] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T10:55:24.518] [INFO] default - 程序运行目录: D:\work\澳门记忆
+[2019-11-28T10:55:24.518] [INFO] default - 首次启动!
+[2019-11-28T10:55:24.518] [INFO] default - 生成版本号: dnok4tl7xk
+[2019-11-28T10:55:24.528] [INFO] default - 清理资源文件夹: D:\work\澳门记忆\dist\static
+[2019-11-28T10:55:24.528] [INFO] default - 文件夹不存在: D:\work\澳门记忆\dist\static
+[2019-11-28T10:55:24.529] [INFO] default - 创建文件夹: D:\work\澳门记忆\dist\static
+[2019-11-28T10:55:24.529] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T10:55:24.529] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T10:55:24.529] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T10:55:24.531] [INFO] default - 开始处理模块: home
+[2019-11-28T10:55:25.112] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-11-28T10:55:25.183] [DEBUG] default - 页面home处理用时: 653 毫秒!
+[2019-11-28T10:55:25.184] [INFO] default - 文件夹不存在: D:/work/澳门记忆/dist/static/resource
+[2019-11-28T10:55:25.185] [INFO] default - 创建文件夹: D:/work/澳门记忆/dist/static/resource
+[2019-11-28T10:55:25.186] [DEBUG] default - 处理资源:  [ 'D:/work/澳门记忆/src/resource/bg-1.jpg',
+  'D:/work/澳门记忆/src/resource/bg-2.jpg',
+  'D:/work/澳门记忆/src/resource/bg-3.jpg',
+  'D:/work/澳门记忆/src/resource/spot.png',
+  'D:/work/澳门记忆/src/resource/spot-active.png' ]
+[2019-11-28T10:55:25.186] [DEBUG] default - 资源目录:  D:/work/澳门记忆/dist/static/resource
+[2019-11-28T10:55:25.188] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T10:55:25.939] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T10:55:25.994] [INFO] default - 文件夹不存在: D:\work\澳门记忆\dist\static\css
+[2019-11-28T10:55:25.994] [INFO] default - 创建文件夹: D:\work\澳门记忆\dist\static\css
+[2019-11-28T10:55:25.995] [INFO] default - 开始处理附属css中的资源
+[2019-11-28T10:55:25.995] [INFO] default - 附属css中的资源处理完毕!
+[2019-11-28T10:55:25.995] [INFO] default - 处理字体: {}
+[2019-11-28T10:55:25.999] [INFO] default - 使用postcss处理完毕! 用时: 60 毫秒
+[2019-11-28T10:55:25.999] [INFO] default - 判断css中的外链情况!
+[2019-11-28T10:55:25.999] [DEBUG] default - 发现外链列表: "../resource/bg-1.jpg","../resource/bg-2.jpg","../resource/bg-3.jpg",'../resource/spot.png','../resource/spot-active.png'
+[2019-11-28T10:55:26.000] [INFO] default - 正在处理script!
+[2019-11-28T10:55:26.828] [INFO] default - 工程中只有一个页面!
+[2019-11-28T10:55:26.828] [INFO] default - js中的资源处理完毕!
+[2019-11-28T10:55:26.828] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T10:55:26.829] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T10:55:26.829] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T10:55:26.829] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T10:55:26.829] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-11-28T10:55:26.829] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-11-28T10:55:26.829] [DEBUG] default - 处理脚本: main
+[2019-11-28T10:55:26.829] [INFO] default - 读取文件: D:\work\澳门记忆\src\main.js
+[2019-11-28T10:55:26.829] [DEBUG] default - 输出scriptData
+[2019-11-28T10:55:26.830] [DEBUG] default - 准备输出html!
+[2019-11-28T10:55:26.833] [DEBUG] default - 忽略文件: D:/work/澳门记忆/src/resource/show.png
+[2019-11-28T10:55:26.833] [DEBUG] default - 忽略文件: D:/work/澳门记忆/src/resource/show.png
+[2019-11-28T10:55:26.833] [DEBUG] default - 处理资源:  [ 'D:/work/澳门记忆/src/resource/logo.png',
+  'D:/work/澳门记忆/src/resource/mouse.png',
+  'D:/work/澳门记忆/src/resource/main-1.png',
+  'D:/work/澳门记忆/src/resource/show.png',
+  'D:/work/澳门记忆/src/resource/to-home.png' ]
+[2019-11-28T10:55:26.833] [DEBUG] default - 资源目录:  D:/work/澳门记忆/dist/static/resource
+[2019-11-28T10:55:26.834] [DEBUG] default - 开始美化html
+[2019-11-28T10:55:26.846] [INFO] default - 判断html中的外链情况!
+[2019-11-28T10:55:26.846] [DEBUG] default - 发现外链列表: ./static/css/owo.main.dnok4tl7xk.css,./static/css/main.css,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css,./static/resource/logo.png,./static/resource/mouse.png,./static/resource/main-1.png,http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf,http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf,./static/resource/show.png,http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf,./static/resource/show.png,http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxOS8xMS8xLzM0MWM1YjUyLTU4NmMtNGFiNS1iYjEzLTkzYWMzZDRlMDkyMS54bWw=/playerByOsmf.swf,./static/resource/show.png,./static/resource/to-home.png,http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js,./static/js/main.js,./static/js/owo.main.dnok4tl7xk.js
+[2019-11-28T10:55:26.847] [INFO] default - 显示外链情况!
+[2019-11-28T10:55:26.849] [INFO] default - 文件夹不存在: D:\work\澳门记忆\dist\static\js
+[2019-11-28T10:55:26.849] [INFO] default - 创建文件夹: D:\work\澳门记忆\dist\static\js
+[2019-11-28T10:55:26.850] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-28T10:55:26.850] [INFO] default - 编译结束!
+[2019-11-28T10:55:26.891] [INFO] default - 写入文件: D:\work\澳门记忆\dist\static\css\owo.main.dnok4tl7xk.css
+[2019-11-28T10:55:26.891] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T10:55:26.891] [INFO] default - 读取成功: D:\work\澳门记忆\src\main.css
+[2019-11-28T10:55:26.892] [INFO] default - 读取成功: D:\work\澳门记忆\src\main.js
+[2019-11-28T10:55:26.939] [INFO] default - 写入文件: D:\work\澳门记忆\dist\static\css\main.css
+[2019-11-28T10:55:26.939] [INFO] default - 写入文件: D:\work\澳门记忆\dist\static\js\main.js
